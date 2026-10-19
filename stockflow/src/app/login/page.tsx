@@ -11,8 +11,8 @@ import { login, saveAuth } from "@/lib/auth";
 
 export default function LoginPage() {
   const router = useRouter();
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("demo@stockflow.dev");
+  const [password, setPassword] = useState("demo1234");
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
