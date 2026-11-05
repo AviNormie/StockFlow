@@ -13,7 +13,7 @@
   "scripts": {
     "compile": "tsc",
     "bundle-js": "rollup -c rollup.config.mjs",
-    "build": "npm run compile && npm run bundle-js"
+    "build": "node init && npm run compile && npm run bundle-js"
   },
   "type": "module",
   "main": "./lib/udf-compatible-datafeed.js",
